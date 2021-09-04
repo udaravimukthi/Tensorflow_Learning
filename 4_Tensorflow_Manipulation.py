@@ -54,6 +54,14 @@ print(y[0:2,:1])
 print("first three rows with 1st colmmn")
 print(y[:3,:1])
 
+print("testing 1")
+print(y[0,:1])
+
+print("testing 2")
+print(y[0,1])
+
+print("testing 3")
+print(y[2:,1])
 #reshaping
 print("Reshaping")
 tensorA = tf.range(16)
