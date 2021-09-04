@@ -23,3 +23,11 @@ print(tensorA)
 #ones matrix
 tensorA =tf.ones((4,4))
 print(tensorA)
+
+#maxtri zeros
+tensorA =tf.zeros((4,4))
+print(tensorA)
+
+# identity matrix
+tensorA =tf.eye(5)
+print(tensorA)
