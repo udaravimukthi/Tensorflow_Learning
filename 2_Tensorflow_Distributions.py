@@ -14,7 +14,7 @@ print(x)
 x = tf.random.uniform((4,4), minval= 0, maxval= 2)
 print("Uniform distribution")
 print(x)
-
+ 
 # range function
 x = tf.range(start=5, limit=20, delta=3)
 print("Range Function")
