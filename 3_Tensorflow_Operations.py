@@ -43,4 +43,4 @@ print("tensorB")
 print(tensorB)
 
 tensorC =tf.tensordot(tensorA, tensorB, axes=1)
-print(tensorC)
+print(tensorC) 
