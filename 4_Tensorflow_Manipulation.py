@@ -72,4 +72,4 @@ x = tf.reshape(tensorA, (2,8))
 print(x)
 
 x = tf.reshape(tensorA, (16,1))
-print(x)
+print(x) 
